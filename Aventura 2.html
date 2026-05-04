@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura</title>
+</head>
+<body>
+    <style>
+       
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Seção de aventura */
+.aventura {
+    background: url('img/cinema-bg.jpg') center/cover no-repeat;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+.aventura h2 {
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.aventura::before {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 2em;
+}
+
+/* Grade de filmes */
+.filmes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+}
+
+.filme {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s;
+}
+
+.filme:hover {
+    transform: scale(1.05);
+}
+
+.filme img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.filme h3 {
+    color: #ffcc00;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.filme p {
+    font-size: 0.9em;
+    color: #ccc;
+    padding: 0 15px 20px;
+    text-align: justify;
+}
+   </style>
+
+          <!-- Cabeçalho -->
+    <header>
+        Cineflix
+    </header>
+
+    <!-- Seção de aventura -->
+    <section class="aventura">
+        <h2>aventura</h2>
+    </section>
+
+    <!-- Grade de filmes -->
+    <section class="filmes">
+        <div class="filme">
+            <img src="img/Círculo de Fogo - Estreia 09 de Agosto - Trailer_ http___youtu_be_ZyH5XJ7K4cQ.jpg" alt="Círculo de Fogo: A Revolta">
+            <h3>Círculo de Fogo: A Revolta</h3>
+            <p>Elenco: Charlie Day, Charlie Hunnam, Rinko Kikuchi, Idris Elba, Burn Gorman, Ron Perlman...</p>
+        </div>
+
+        <div class="filme">
+            <img src="img/percy jackson.jpg" alt="Percy Jackson e o Ladrão de Raios">
+            <h3>Percy Jackson e o Ladrão de Raios</h3>
+            <p>Elenco: Logan Lerman, Alexandra Daddario, Brandon T. Jackson, Jake Abel, Pierce Brosnan, Sean Bean...</p>
+        </div>
+
+        <div class="filme">
+            <img src="img/Jumanji; Welcome To The Jungle.jpg" alt="Jumanji">
+            <h3>Jumanji</h3>
+            <p>Elenco: Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan, Robin Williams, Kirsten Dunst, Nick Jonas...</p>
+        </div>
+    </section>
+ </body>
+</html>
