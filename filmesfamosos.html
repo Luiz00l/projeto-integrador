@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filmes Famosos</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000;
+      /* Fundo preto */
+      color: #fff;
+    }
+
+    .banner-lancamento {
+      background: url('img/banner\ institucional.png') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar sem botão -->
+  <nav class="navbar navbar-dark bg-black">
+    <div class="container-fluid">
+      <ul class="navbar-nav d-flex flex-row ms-auto">
+      </ul>
+    </div>
+  </nav>
+  <!-- Banner de Lançamento -->
+  <section class="banner-lancamento">
+    <div class="text-center">
+        <img src="img/banner institucional.png">
+      
+    </div>
+  </section>
+
+  <!-- Filmes em Destaque -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Filmes mais famosos em 2026</h2>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card bg-dark text-white">
+          <img src="img/homemaranhaumnovodia.jpg" class="card-img-top" alt="Homem Aranha: Um novo dia" height="500"
+            width="500">
+          <div class="card-body">
+            <h5 class="card-title">Homem Aranha: Um novo dia</h5>
+            <p class="card-text">mostra Peter Parker lidando com a solidão após o feitiço que fez todos esquecerem dele. Sozinho e maduro, e ele protege Nova York de ameaças.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card bg-dark text-white">
+          <img src="img/obsession.jpg" class="card-img-top" alt="obsession" height="500" width="500">
+          <div class="card-body">
+            <h5 class="card-title">Obsession</h5>
+            <p class="card-text">Bear ganha o amor de Nikki de forma sobrenatural, mas o afeto se corrompe em uma dependência psicológica aterrorizante.</p>
+
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card bg-dark text-white">
+          <img src="img/odisseia.png" class="card-img-top"
+            alt="Avengers Endgame" height="500" width="500">
+          <div class="card-body">
+            <h5 class="card-title">Odisseia</h5>
+            <p class="card-text">O filme acompanha Odisseu em sua difícil jornada de dez anos para voltar a Ítaca após a Guerra de Troia, enquanto enfrenta monstros e deuses.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-black text-white text-center py-3">
+    <p> 2026 Filmes Famosos. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
